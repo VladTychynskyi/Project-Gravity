@@ -113,14 +113,6 @@
 
 
 
-
-
-
-
-
-
-
-
 @media (max-width:860px) {
 
     .navigation {
@@ -228,7 +220,7 @@
         height: 42px;
         border: 1px solid #fff;
         box-sizing: border-box;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Raleway';
         font-weight: 500;
         font-size: 14px;
         line-height: 18px;
@@ -295,7 +287,7 @@
 
     .done-shadow-text {
 
-        font-family: 'Oswald',sans-serif;
+        font-family: 'Oswald';
         font-weight: 700;
         font-size: 32px;
         line-height: 112%;
