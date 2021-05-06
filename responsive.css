@@ -115,6 +115,7 @@
 
 @media (max-width:860px) {
 
+
     .navigation {
 
         position: fixed;
@@ -142,6 +143,8 @@
         position: relative;
         z-index: 9;
         display: initial;
+        width: 31px;
+        height: 32px;
     }
 
     .navigation-link-for-phone {
@@ -195,7 +198,7 @@
         display:none;
     }
 
-    .header-inner {
+    .header-title-block {
 
         margin-top:9em;
     }

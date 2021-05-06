@@ -5,6 +5,15 @@ body {
     box-sizing: border-box;
 }
 
+.done-and-services-inner,
+.about-us-inner,
+.partners-inner,
+.reviews-inner {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* ------------------------ header -------------------- */
 
 header {
@@ -74,7 +83,7 @@ header {
 
 /* -------------------------- top-header ---------------------- */
 
-.header-inner {
+.header-title-block {
 
     margin-top:6em;
     display:flex;
@@ -193,16 +202,10 @@ header {
 
 .done-and-services {
 
-    height: 639px;
+    height: auto;
     width: 100%;
     background-color: #010101;
 
-}
-
-.done-and-services-inner {
-
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 /* ----------------------- Done ------------------------- */
@@ -347,12 +350,6 @@ header {
 
     height:auto;
     padding-bottom:5em;
-}
-
-.about-us-inner {
-
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .history {
@@ -525,12 +522,6 @@ header {
     padding:5em 0 5em 0;
 }
 
-.partners-inner {
-
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .block-partners-arrows {
 
     display: flex;
@@ -582,14 +573,6 @@ header {
     width:100%;
     height:auto;
     padding-top:5em;
-}
-
-.reviews-inner {
-
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
 }
 
 .block-reviews-arrows {
